@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQD2BbtjDiRh78AxcDBYj91TANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRlMjBjZjg0OS1iZTEwLTQwNjgtYWQ3MS1jNjA1OGIxYjZkNzMw
+    HhcNMTkwNTExMTEyNjQxWhcNMjQwNTA5MTIyNjQxWjAvMS0wKwYDVQQDEyRlMjBj
+    Zjg0OS1iZTEwLTQwNjgtYWQ3MS1jNjA1OGIxYjZkNzMwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCv7ECu4EkVz0RUFigWgEr4ZqpMNeRerUoMi+uhTUor
+    MNnnIO17YMTCq22QdAdSnH8QJezfwns0JxjoJlNO/rSV83kPTYVd4spAC4uZpPuF
+    LjCTaYTr+8SW2/WfESpZWpj+W28dQKyae85ggFm/DV3lTwLhm7i3dWZ+hqn7rnQ1
+    9enBNBR8gkWDCiEFSR8FTdffF5UnvYl3sTjE+lGkp1bSbV3iLxQ1BXIhtjbER/rZ
+    z16jKoj1Wy/NfOc5nPxktpBSV8lwyrt/Qu74YYrnLS2mn071z+esmBtE9h7a1HnC
+    rP4hLWgpzX8r4pXl3AgATj2sinc8MsM+N82Yyk5swsIhAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCW
+    FatD4FP/0bhacLTeWB5XY48hMGG4Ibgl6ilgXXESStxJ1HFd6Tp3vX3jwXe29J99
+    eEIjIzlW+cV/nMUb3ZBPNt4MsCGZvuic9k9cdmTmhlAo1bE/cQkKTf5v0/CzMeU9
+    7OV4kBnvnRai08QxQGBJw9eYA1L/2kDBkprYvSR+zJlTbsNcMABea/5f1Brv6/Ys
+    yk2TYDVqT1SL8tZUtP61/D8l3bVe3LgUc5xdARsZQh566BUHlKGAFh2hGyCeF5cR
+    2lVS+IiT+/MNGyhE077J3E2jlF/RvtYfkYmWY0S8T2ieJZXleS3Kg9yG2G45o6BM
+    xmgJu6SsjJyDzXHhgV1C
+    -----END CERTIFICATE-----
+  clusterName: skullrune
+  jx-install-version: 2.0.116
+  kubeProvider: gke
+  projectID: buoyant-airport-231116
+  region: ""
+  secretsLocation: vault
+  server: https://35.203.116.6
+  systemVaultName: jx-vault-skullrune
+  zone: northamerica-northeast1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
